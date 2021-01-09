@@ -300,6 +300,18 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-top h1 {
     font-size: 26px;
   }
+  body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("../img/bg-small.jpg") top right no-repeat;
+  background-size: cover;
+  
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
 }
 
 /*--------------------------------------------------------------
