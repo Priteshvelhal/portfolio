@@ -303,7 +303,10 @@ h1, h2, h3, h4, h5, h6 {
   body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg-small.jpg") top right;
+  background:  linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url("../img/bg-small.jpg") top right;
   background-size: cover;
   
   left: 0;
